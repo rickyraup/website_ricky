@@ -2,6 +2,7 @@
 import pic from "../images/ricky.jpeg"
 import git from "../images/github-mark.png"
 import linked from "../images/linkedin.png"
+import '../index.css';
 //import {motion} from 'framer-motion'
 export default function Main(){
     return (
@@ -9,8 +10,10 @@ export default function Main(){
             <div className="my-div">
                 <h3 className="main-text">What's Up!</h3>
                 <h1 className="main-text3">I'm Ricky Raup.</h1>
+                <a target="_blank" rel="noopener noreferrer" href="/about">
+                    <img src={pic} className="main-pic" alt=""></img>
+                </a>
                 
-                <img src={pic} className="main-pic" alt=""></img>
                 
 
     
@@ -30,7 +33,7 @@ export default function Main(){
                     
                 </div>
                 <div>
-                    <h5 className="main-text2">© Ricky Raup 2023</h5>
+                    <h5 className="main-text4">© Ricky Raup 2023</h5>
                 </div>
 
             </div>
