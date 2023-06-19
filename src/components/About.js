@@ -5,6 +5,7 @@ export default function About(){
     return (
         <div className="bro">
             <h1 className='brotext'>About</h1>
+            <p>Coming Soon!</p>
         </div>
     )
 }

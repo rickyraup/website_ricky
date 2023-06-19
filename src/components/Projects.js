@@ -4,6 +4,7 @@ export default function Projects(){
     return (
         <div className="bro">
             <h1>Projects</h1>
+            <p>Coming Soon!</p>
         </div>
     )
 }
