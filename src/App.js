@@ -41,7 +41,7 @@ export default function App() {
           color={color}
           outerAlpha={0.4}
           innerScale={0.7}
-          outerScale={5}
+          outerScale={0}
         />
       </div>
         <Routes>
