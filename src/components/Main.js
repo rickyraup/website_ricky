@@ -11,7 +11,7 @@ export default function Main(){
             <div className="my-div">
                 <h3 className="main-text animate__animated animate__fadeInDown">What's Up!</h3>
                 <h1 className="main-text3 animate__animated animate__fadeInDown">I'm Ricky Raup.</h1>
-                <a target="_blank" rel="noopener noreferrer" href="/about" className="animate__animated animate__fadeInDown">
+                <a  href="/about" className="animate__animated animate__fadeInDown">
                     <img src={pic} className="main-pic" alt=""></img>
                 </a>
                 

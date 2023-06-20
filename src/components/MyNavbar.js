@@ -7,7 +7,7 @@ export default function MyNavbar() {
   return (
     <Navbar bg="white" expand="sm">
       <Container>
-        <Navbar.Brand href="https://www.linkedin.com/in/ricky-raup/">Ricky Raup</Navbar.Brand>
+        <Navbar.Brand target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ricky-raup/">Ricky Raup</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
